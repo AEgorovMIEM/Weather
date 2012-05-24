@@ -1,0 +1,84 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Trebuchet MS;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url('bg.png') #1c1e1d repeat-x;
+}
+
+.content {
+    height: 280px;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    margin-top: -140px;
+}
+
+.line {
+    background: url('weath_bg.png') repeat-x;
+    height: 55px;
+    margin-bottom: 1px;
+}
+
+.line table {
+    margin: 0 auto;
+    width: 310px;
+    color: #fff;
+    font-size: 12px;
+}
+    
+.line table .day {
+    width: 75px;
+    color: #cecece;
+}
+
+.line table .icon {
+    width: 70px;
+}
+
+.line table .icon img {
+    position: relative;
+    top: 2px;
+}
+
+.line table .info {
+    width: 135px;
+}
+
+.line table .gradus {
+    text-align: right;
+    font-size: 24px;
+}
+
+.top-line {
+    width: 310px;
+    margin: 0 auto;
+}
+
+.top-line .title {
+    font-size: 20px;
+    color: #00ccff;
+    text-shadow: 1px 1px 0px #2d2d2d;
+    letter-spacing: 1px;
+    
+    margin: 0 0 25px 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+.top-info {
+    float: right;
+    color: #fff;
+    font-size: 18px;
+}
+
+.top-info span {
+    text-align: right;
+    display: block;
+    color: #b3b3b3;
+    font-size: 12px;
+}
